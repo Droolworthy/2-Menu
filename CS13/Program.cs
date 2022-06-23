@@ -33,7 +33,7 @@ namespace CS13
                             Console.WriteLine("Вы поменяли цвет текста на зелёный");
                         }
                         break;
-                    case "Console":
+                    case "console":
                         changeConsoleColor = Console.ReadLine();
                         changeConsoleColor = Convert.ToString(Console.BackgroundColor = ConsoleColor.Red);
 
